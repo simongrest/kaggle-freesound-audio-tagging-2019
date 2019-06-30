@@ -51,18 +51,18 @@ The following data augmentations were used:
 3. Mild zooming and warping
 4. Test Time Augmentation
 
-# Training Approach
+## Training Approach
 1. Train a CNN on the curated set using 6-fold cross validation
 2. Use this model to predict the entire noisy dataset
 3. Pick a class-balanced subset of examples from the noisy dataset where the predictions are reasonably good
 4. Finetune the model trained on the curated set on the combination of curated and selected noisy subset
 
-# Submission
+## Submission
 This competition was run as a kernels only competition. The kernel had a maximum runtime of one hour. Available disk space was limited to ~5Gb and there was ~14Gb of memory available.
 
 In order for the kernel to run more quickly spectrograms are loaded into memory in a shared dictionary. Memory usage is monitored and once it reaches 95% usage, spectrograms are written to disk instead of being added to memory.
 
-# Result
+## Result
 44th of 808 participants - Top 5% - Silver Medal :)
 
 https://www.kaggle.com/c/freesound-audio-tagging-2019/leaderboard
