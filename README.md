@@ -30,6 +30,8 @@ The key part of this competition is to figure out how to use effectively use the
 ## Sound preprocessing
 For this solution, audio files were transformed to a spectral or frequency representation. The mel-scale is used for the spectrograms. Instead of a decibel front-end a PCEN front-end is used - see https://arxiv.org/abs/1607.05666
 
+<img src="images/PCEN and DB.png" width="70%"/>
+
 ## Network Architecture
 This solution borrows heavily from an approach of the winners of the 2018 competition. Their technical report is here:
 http://dcase.community/documents/challenge2018/technical_reports/DCASE2018_Jeong_102.pdf
